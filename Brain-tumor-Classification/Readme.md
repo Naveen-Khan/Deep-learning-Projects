@@ -106,7 +106,7 @@ The trained model is integrated into a Streamlit web application, allowing users
 
 - Python
 - TensorFlow / Keras
-- DenseNet (CNN)
+- DenseNet 121(CNN)
 - OpenCV
 - NumPy
 - PIL
