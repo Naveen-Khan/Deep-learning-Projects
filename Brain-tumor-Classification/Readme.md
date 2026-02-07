@@ -8,14 +8,14 @@ A pretrained DenseNet convolutional neural network is fine-tuned to classify bra
 
 The goal of this project is to assist medical professionals by providing a fast and reliable AI-based diagnostic support system.
 
+
+
 Dataset contains (7023) MRI brain images
-
-
 ### Tumor Classes:
-Glioma 
-Meningioma
-Pituitary Tumor
-No Tumor
+    1. Glioma 
+    2. Meningioma
+    3. Pituitary Tumor
+    4. No Tumor
 
 ### Spliting criteria
 Test 10% ,valid 20% , Train 70%
