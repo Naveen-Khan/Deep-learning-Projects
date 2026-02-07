@@ -52,3 +52,22 @@ Dataset Type: Brain MRI Images
 - Rotation
 - Zoom
 - Horizontal flipping
+
+
+### 🏗 Model Architecture
+
+This project uses Transfer Learning with a pretrained DenseNet model.
+
+*🔹 Base Model*
+
+- DenseNet pretrained on ImageNet
+- Used for feature extraction
+- Initial layers frozen during early training
+
+*🔹 Custom Classification Head*
+- Global Average Pooling layer
+- Dense layer with 128 neurons, ReLU activation, and L2 regularization
+- Dropout layer with 60% rate
+- Dense layer with 64 neurons, ReLU activation, and L2 regularization
+- Dropout layer with 50% rate
+- Output layer with 4 neurons and Softmax activation
