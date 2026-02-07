@@ -101,3 +101,13 @@ The trained model is integrated into a Streamlit web application, allowing users
 - Upload MRI images
 - Get predicted tumor type
 - View prediction confidence
+
+### 🛠 Technologies Used
+
+- Python
+- TensorFlow / Keras
+- DenseNet (CNN)
+- OpenCV
+- NumPy
+- PIL
+- Streamlit
