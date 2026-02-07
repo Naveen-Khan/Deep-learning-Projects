@@ -14,3 +14,10 @@ The main objective of this project is to assist doctors and radiologists by prov
 - Classify X-ray scans as Normal or Pneumonia
 - Reduce manual diagnostic workload
 - Improve diagnostic accuracy using transfer learning
+
+### Disease Classes
+
+*The model classifies chest X-ray images into two categories:*
+
+- Normal
+- Pneumonia
