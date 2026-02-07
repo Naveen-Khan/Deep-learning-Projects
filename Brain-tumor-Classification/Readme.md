@@ -71,3 +71,12 @@ This project uses Transfer Learning with a pretrained DenseNet model.
 - Dense layer with 64 neurons, ReLU activation, and L2 regularization
 - Dropout layer with 50% rate
 - Output layer with 4 neurons and Softmax activation
+
+
+### 🌐 Web Application
+
+The trained model is integrated into a Streamlit web application, allowing users to:
+
+- Upload MRI images
+- Get predicted tumor type
+- View prediction confidence
