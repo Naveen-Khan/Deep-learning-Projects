@@ -90,7 +90,7 @@ Confusion matrix :
 
 Normalize Confusion matrix :
 
-<img src="asserts/Normalized Confusion matrix.png" width= 500 height =500>
+<img src="asserts/Nomalized Confusion matrix.png" width= 500 height =500>
 
 
 
