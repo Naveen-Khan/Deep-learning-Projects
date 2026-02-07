@@ -29,5 +29,17 @@ The model classifies MRI images into four categories:
 
 - No Tumor
 
+
+### 📊 Dataset Information
+
+Dataset Type: Brain MRI Images
+
+- Image Format: JPG / PNG
+- Total Images: ~7,000+
+- Data Split:
+- Training Set: 70%
+- Validation Set: 20%
+- Test Set: 10%
+  
 ### Spliting criteria
 Test 10% ,valid 20% , Train 70%
