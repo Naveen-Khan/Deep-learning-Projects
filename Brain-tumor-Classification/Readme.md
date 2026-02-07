@@ -16,8 +16,8 @@ The goal of this project is to assist medical professionals by providing a fast 
 - Improve accuracy using transfer learning
 
 
-*Dataset contains (7023) MRI brain images*
-###🧠 Tumor Classes
+
+### 🧠 Tumor Classes
 
 The model classifies MRI images into four categories:
 
@@ -35,7 +35,7 @@ The model classifies MRI images into four categories:
 Dataset Type: Brain MRI Images
 
 - Image Format: JPG / PNG
-- Total Images: ~7,000+
+- Total Images: 7,023
 - Data Split:
 - Training Set: 70%
 - Validation Set: 20%
