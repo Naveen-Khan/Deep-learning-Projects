@@ -80,14 +80,17 @@ This project uses Transfer Learning with a pretrained DenseNet model.
 - Stable training without overfitting
 - Strong performance across all tumor classes
 
-Classification report
+Classification report:
 
+<img src="asserts/Classification report.png" width= 500 height =500>
 
-<img src="asserts/Classification report.png" width= 800 height =800>
+Confusion matrix :
 
+<img src="asserts/Confusion matrix.png" width= 500 height =500>
 
+Normalize Confusion matrix :
 
-
+<img src="asserts/Normalized Confusion matrix.png" width= 500 height =500>
 
 
 
