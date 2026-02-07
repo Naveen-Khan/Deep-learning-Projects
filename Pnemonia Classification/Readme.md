@@ -91,4 +91,4 @@ Confusion Matrix:
 
 Normalized Confusion Matrix:
 
-<img src="results/Nomalized Confusion matrix.png" width="500" height="500">
+<img src="results/Normalized Confusion matrix.png" width="500" height="500">
