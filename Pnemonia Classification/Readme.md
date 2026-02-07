@@ -92,3 +92,28 @@ Confusion Matrix:
 Normalized Confusion Matrix:
 
 <img src="results/Normalize confusion matrix.pnd.png" width="500" height="500">
+
+
+###🌐 Web Application
+
+The trained pneumonia detection model is integrated into a Streamlit web application, which allows users to:
+
+- Upload chest X-ray images
+- Get real-time predictions (Normal / Pneumonia)
+- View prediction confidence scores
+
+### 🛠 Technologies Used
+
+- Python
+- TensorFlow / Keras
+- DenseNet-121 (CNN)
+- OpenCV
+- NumPy
+- PIL
+- Streamlit
+
+
+⚠ Disclaimer
+
+This project is developed for educational and research purposes only.
+It should not be used as a replacement for professional medical diagnosis.
