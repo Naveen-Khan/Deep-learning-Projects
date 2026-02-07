@@ -73,6 +73,21 @@ This project uses Transfer Learning with a pretrained DenseNet model.
 - Output layer with 4 neurons and Softmax activation
 
 
+
+### 📈 Model Performance
+
+- Achieved high classification accuracy on test data
+- Stable training without overfitting
+- Strong performance across all tumor classes
+
+Classification report
+<img src="asserts/Classification report.png">
+
+
+
+
+
+
 ### 🌐 Web Application
 
 The trained model is integrated into a Streamlit web application, allowing users to:
