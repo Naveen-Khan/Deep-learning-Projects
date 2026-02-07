@@ -31,3 +31,36 @@ The main objective of this project is to assist doctors and radiologists by prov
 - Training Set: 70%
 - Validation Set: 20%
 - Test Set: 10%
+
+### 🖼 Image Preprocessing
+
+*To improve model performance, the following preprocessing steps are applied:*
+
+- Resize images to 224 × 224 pixels
+- Normalize pixel values to range 0–1
+- Convert images to NumPy arrays
+- Apply data augmentation:
+- Rotation
+- Zoom
+- Horizontal flipping
+
+### 🏗 Model Architecture
+
+This project uses Transfer Learning with a pretrained DenseNet-121 model.
+
+*🔹 Base Model*
+
+- DenseNet-121 pretrained on ImageNet
+
+- Used as a feature extractor
+
+- Initial layers frozen during early training to preserve learned features
+
+*🔹 Custom Classification Head*
+
+- Global Average Pooling layer
+- Dense layer with 128 neurons, ReLU activation, and L2 regularization
+- Dropout layer with 60% rate
+- Dense layer with 64 neurons, ReLU activation, and L2 regularization
+- Dropout layer with 50% rate
+- Output layer with 2 neurons and Softmax activation (Normal vs Pneumonia)
