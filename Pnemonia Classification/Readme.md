@@ -64,3 +64,31 @@ This project uses Transfer Learning with a pretrained DenseNet-121 model.
 - Dense layer with 64 neurons, ReLU activation, and L2 regularization
 - Dropout layer with 50% rate
 - Output layer with 2 neurons and Softmax activation (Normal vs Pneumonia)
+
+
+### ⚙ Training Configuration
+
+- Optimizer: Adam
+- Learning Rate: 0.0001
+- Loss Function: Categorical Cross-Entropy
+- Label Format: One-hot encoded
+- Evaluation Metric: Accuracy
+- Epochs: 50
+
+### 📈 Model Performance
+
+- Achieved high accuracy on test data
+- Stable training with minimal overfitting
+- Good generalization between Normal and Pneumonia cases
+
+Classification Report:
+
+<img src="results/Classification report.png" width="500" height="500">
+
+Confusion Matrix:
+
+<img src="results/Confusion matrix.png" width="500" height="500">
+
+Normalized Confusion Matrix:
+
+<img src="results/Nomalized Confusion matrix.png" width="500" height="500">
