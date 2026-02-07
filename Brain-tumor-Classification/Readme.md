@@ -10,13 +10,13 @@ The goal of this project is to assist medical professionals by providing a fast 
 
 🎯 Project Objectives
 
-Automatically classify brain tumors from MRI images
+- Automatically classify brain tumors from MRI images
 
-Distinguish between different tumor types
+- Distinguish between different tumor types
 
-Reduce dependency on manual diagnosis
+- Reduce dependency on manual diagnosis
 
-Improve accuracy using transfer learning
+- Improve accuracy using transfer learning
 
 
 Dataset contains (7023) MRI brain images
