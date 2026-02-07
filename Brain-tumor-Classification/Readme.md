@@ -81,7 +81,10 @@ This project uses Transfer Learning with a pretrained DenseNet model.
 - Strong performance across all tumor classes
 
 Classification report
-<img src="asserts/Classification report.png">
+
+
+<img src="asserts/Classification report.png" width= 800 height =800>
+
 
 
 
