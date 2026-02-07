@@ -21,3 +21,13 @@ The main objective of this project is to assist doctors and radiologists by prov
 
 - Normal
 - Pneumonia
+
+### 📊 Dataset Information
+
+- Dataset Type: Chest X-ray Images
+- Image Format: JPG / PNG
+- Total Images: ~5,800+
+- Data Split:
+- Training Set: 70%
+- Validation Set: 20%
+- Test Set: 10%
