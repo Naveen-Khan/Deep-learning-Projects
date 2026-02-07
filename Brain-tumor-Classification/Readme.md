@@ -41,5 +41,14 @@ Dataset Type: Brain MRI Images
 - Validation Set: 20%
 - Test Set: 10%
   
-### Spliting criteria
-Test 10% ,valid 20% , Train 70%
+### 🖼 Image Preprocessing
+
+*To improve model performance, the following preprocessing steps are applied:*
+
+- Resize images to 224 × 224 pixels
+- Normalize pixel values to range 0–1
+- Convert images to NumPy arrays
+- Apply data augmentation:
+- Rotation
+- Zoom
+- Horizontal flipping
