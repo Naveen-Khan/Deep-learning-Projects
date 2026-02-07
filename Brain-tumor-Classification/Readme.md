@@ -1,14 +1,14 @@
 
 # 🧠 Brain Tumor Classification using Deep Learning (MRI)
 
-📌 Project Description
+### 📌 Project Description
 
 This project implements an automated brain tumor classification system using deep learning and medical MRI images.
 A pretrained DenseNet convolutional neural network is fine-tuned to classify brain MRI scans into multiple tumor categories.
 The goal of this project is to assist medical professionals by providing a fast and reliable AI-based diagnostic support system.
 
 
-🎯 Project Objectives
+### 🎯 Project Objectives
 
 - Automatically classify brain tumors from MRI images
 
@@ -19,7 +19,7 @@ The goal of this project is to assist medical professionals by providing a fast 
 - Improve accuracy using transfer learning
 
 
-Dataset contains (7023) MRI brain images
+*Dataset contains (7023) MRI brain images*
 ### Tumor Classes:
     1. Glioma 
     2. Meningioma
