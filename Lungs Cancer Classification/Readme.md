@@ -1,6 +1,6 @@
 
 
-# Pneumonia Classification using Deep Learning (Chest X-ray)
+# Lungs cancer Classification using Deep Learning (Ct scan images)
 
 ### 📌 Overview
 This project focuses on automated lung cancer classification from CT scan images using a fine-tuned DenseNet CNN architecture. The system aims to assist radiologists by providing reliable predictions and explainability through Grad-CAM heatmaps.
